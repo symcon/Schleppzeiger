@@ -82,7 +82,7 @@ declare(strict_types=1);
         public function Reset()
         {
             $this->SetValue('TrailingPointer', GetValue($this->ReadPropertyInteger('Target')));
-            $this->SetTimerInterval('ResetTimer', $this->ReadPropertyInteger('Interval')*1000);
+            $this->SetTimerInterval('ResetTimer', $this->ReadPropertyInteger('Interval') * 1000);
         }
 
         public function MessageSink($timestamp, $sendId, $messageID, $data)
