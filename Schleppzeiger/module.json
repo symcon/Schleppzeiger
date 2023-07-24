@@ -1,0 +1,12 @@
+{
+    "id": "{3517D60A-3940-FD08-519A-7B84B3AE2C9A}",
+    "name": "Schleppzeiger",
+    "type": 3,
+    "vendor": "",
+    "aliases": [],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "SZ",
+    "url": "https://github.com/symcon/Schleppzeiger/Schleppzeiger"
+}

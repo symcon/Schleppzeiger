@@ -1,0 +1,13 @@
+{
+    "translations": {
+        "de": {
+            "Target Variable": "Zielvariable",
+            "Options": "Optionen",
+            "Interval": "Intervall",
+            "Invalid Target Variable": "Ungültige Zielvariable",
+            " seconds": " Sekunden",
+            "Trailing Pointer": "Schleppzeiger",
+            "Reset": "Zurücksetzen"
+        }
+    }
+}

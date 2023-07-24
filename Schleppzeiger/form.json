@@ -1,0 +1,43 @@
+{
+    "elements": [
+        {
+            "type": "SelectVariable",
+            "name": "Target",
+            "caption": "Target Variable",
+            "validVariableTypes": [
+                1,
+                2
+            ]
+        },
+        {
+            "type": "Select",
+            "name": "Option",
+            "caption": "Options",
+            "options": [
+                {
+                    "caption": "Maximum",
+                    "value": "Maximum"
+                },
+                {
+                    "caption": "Minimum",
+                    "value": "Minimum"
+                }
+            ]
+        },
+        {
+            "type": "NumberSpinner",
+            "caption": "Interval",
+            "name": "Interval",
+            "minimum": 0,
+            "suffix": " seconds"
+        }
+    ],
+    "actions": [],
+    "status": [
+        {
+            "code": 200,
+            "icon": "error",
+            "caption": "Invalid Target Variable"
+        }
+    ]
+}
