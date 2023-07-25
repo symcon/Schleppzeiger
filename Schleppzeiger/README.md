@@ -46,17 +46,17 @@ Die Statusvariablen/Kategorien werden automatisch angelegt. Das Löschen einzeln
 Name          | Typ     | Beschreibung
 ------------- | ------- | ------------
 Schleppzeiger | float   | Zeigt den höchsten/niedrigsten Wert seit dem letzten Reset an
-Zurücksetzen  | int     | Assoziation zum Zurücksetzen des Schleppzeigers
+Zurücksetzen  | boolean | Assoziation zum Zurücksetzen des Schleppzeigers
 
 #### Profile
 
-Name   | Typ
------- | -------
-SZ.Reset | int
+Name     | Typ
+-------- | -------
+SZ.Reset | bool
 
 ### 6. WebFront
 
-Anzeige, sowie Zurücksetzen des Schleppzeigers
+Anzeige des Schleppzeigers, sowie Zurücksetzen des Schleppzeigers
 
 ### 7. PHP-Befehlsreferenz
 

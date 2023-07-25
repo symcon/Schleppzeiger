@@ -13,12 +13,12 @@ declare(strict_types=1);
             $this->RegisterPropertyString('Option', 'Maximum');
 
             if (!IPS_VariableProfileExists('SZ.Reset')) {
-                IPS_CreateVariableProfile('SZ.Reset', VARIABLETYPE_INTEGER);
-                IPS_SetVariableProfileAssociation('SZ.Reset', 0, $this->Translate('Reset'), '', 0x00FF00);
+                IPS_CreateVariableProfile('SZ.Reset', VARIABLETYPE_BOOLEAN);
+                IPS_SetVariableProfileAssociation('SZ.Reset', true, $this->Translate('Reset'), '', 0x00FF00);
             }
 
             $this->RegisterVariableFloat('TrailingPointer', $this->Translate('Trailing Pointer'), '', 0);
-            $this->RegisterVariableInteger('Reset', $this->Translate('Reset'), 'SZ.Reset', 1);
+            $this->RegisterVariableBoolean('Reset', $this->Translate('Reset'), 'SZ.Reset', 1);
             $this->EnableAction('Reset');
 
             $this->RegisterTimer('ResetTimer', 0, 'SZ_Reset($_IPS[\'TARGET\']);');
