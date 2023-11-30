@@ -7,7 +7,9 @@
             "Invalid Target Variable": "Ungültige Zielvariable",
             " seconds": " Sekunden",
             "Trailing Pointer": "Schleppzeiger",
-            "Reset": "Zurücksetzen"
+            "Reset": "Zurücksetzen",
+            "https://www.symcon.de/en/service/documentation/module-reference/dragpointer/": "https://www.symcon.de/de/service/dokumentation/modulreferenz/schleppzeiger/",
+            "Drag Pointer": "Schleppzeiger"
         }
     }
 }
