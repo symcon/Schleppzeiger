@@ -6,7 +6,7 @@
   </php>
   <source>
     <include>
-      <directory suffix=".php">../Schleppzeiger</directory>
+      <directory suffix=".php">../DragPointer</directory>
     </include>
   </source>
 </phpunit>

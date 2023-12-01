@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-class Schleppzeiger extends IPSModule
+class DragPointer extends IPSModule
 {
     public function Create()
     {

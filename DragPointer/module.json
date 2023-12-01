@@ -1,6 +1,6 @@
 {
     "id": "{3517D60A-3940-FD08-519A-7B84B3AE2C9A}",
-    "name": "Schleppzeiger",
+    "name": "Drag Pointer",
     "type": 3,
     "vendor": "",
     "aliases": [],
@@ -8,5 +8,5 @@
     "childRequirements": [],
     "implemented": [],
     "prefix": "SZ",
-    "url": "https://github.com/symcon/Schleppzeiger/Schleppzeiger"
+    "url": "https://www.symcon.de/en/service/documentation/module-reference/dragpointer/"
 }

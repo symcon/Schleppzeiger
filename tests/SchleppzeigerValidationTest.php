@@ -6,13 +6,13 @@ include_once __DIR__ . '/stubs/Validator.php';
 
 class SchleppzeigerValidationTest extends TestCaseSymconValidation
 {
-    public function testValidateSymconBackup(): void
+    public function testValidateSymconDragPointer(): void
     {
         $this->validateLibrary(__DIR__ . '/..');
     }
 
-    public function testValidateBackupModule(): void
+    public function testValidateDragPointerModule(): void
     {
-        $this->validateModule(__DIR__ . '/../Schleppzeiger');
+        $this->validateModule(__DIR__ . '/../DragPointer');
     }
 }
